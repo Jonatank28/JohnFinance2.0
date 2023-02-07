@@ -65,3 +65,43 @@
     border: #49AA26;
     color: #FFFFFF;
 }
+
+.buttonDelete{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.buttonDelete p{
+    font-size: 1.2rem;
+}
+
+.buttonDelete div{
+    display: flex;
+    gap: 4rem;
+}
+
+.buttonDelete button{
+    margin-top: 10px;
+    width: 50%;
+    height: 2.8rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border: none;
+}
+
+.buttonDelete button:nth-child(1){
+    border: 1px solid  #E92929;
+    color: #E92929;
+    background-color: var(--background);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.buttonDelete button:nth-child(2){
+    background-color:  #49AA26;
+    border: #49AA26;
+    color: #FFFFFF;
+}
